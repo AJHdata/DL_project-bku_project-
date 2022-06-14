@@ -12,7 +12,7 @@
 				<form method="post" action="" enctype="multipart/form-data">
 					{% csrf_token %}
 					<div class="row">
-						<div class="col-6" id="upload-box" style="width:32em; margin-right: 5%; margin-left: -5%;">
+						<div class="col-6" id="upload-box" style="width:32em;">
 							<input type="file" name="target_img" id="file-input" accept="image/png,image/jpeg" onchange="preview()">
 							<label for="file-input" style="color:white;">
 								<i class="bi bi-upload"></i> &nbsp; Choose A photo
